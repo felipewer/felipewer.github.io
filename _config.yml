@@ -6,7 +6,7 @@
 name: Felipe Carlos Werlang
 
 # Short bio or description (displayed in the header)
-description: Software Engineer from Floranópolis, Brazil
+description: Software Engineer - Floranópolis, Brazil
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/9268918
@@ -18,12 +18,12 @@ avatar: https://avatars0.githubusercontent.com/u/9268918
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: felipewer@gmail.com
+  email:
   facebook:
   flickr:
   github: felipewer
   instagram:
-  linkedin: https://www.linkedin.com/in/felipewer
+  linkedin: felipewer
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
