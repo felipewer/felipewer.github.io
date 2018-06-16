@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '2018-06-04'
+title: 'June 4, 2018'
 ---
 
 - How to ignore authentication routes in Preact service worker
