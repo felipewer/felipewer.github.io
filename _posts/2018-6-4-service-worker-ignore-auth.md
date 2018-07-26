@@ -5,6 +5,8 @@ title: 'June 4, 2018'
 
 - How to ignore authentication routes in Preact service worker
 
+----
+
 ## How to ignore authentication routes in Preact service worker
 
 ### Problem
