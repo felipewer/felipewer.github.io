@@ -11,7 +11,7 @@ title: 'June 4, 2018'
 
 ### Problem
 
-Preact CLI generates sw.js on build using [sw-precache](https://github.com/GoogleChromeLabs/sw-precache). The default configuration intercepts routes like `/auth/github` wich not defined in the frontend implementation and returns the fallback route. It therefore breaks the authentication flow.
+Preact CLI generates sw.js during build using [sw-precache](https://github.com/GoogleChromeLabs/sw-precache). The default configuration intercepts routes like `/auth/github` which are not defined in the frontend implementation and returns the fallback route. It therefore breaks the authentication flow.
 
 ### Solution
 
