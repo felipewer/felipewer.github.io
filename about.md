@@ -35,16 +35,54 @@ Currently aspiring to make an impact in the Blockchain / Cryptocurrency space.
 - Saved the heartbeats of hundreds of beloved pets. Achieved this by successfully creating and deploying a custom database migration tool for the embedded database of the EKG desktop app relied upon by dozens of veterinarians and cardiologists in the field. The previous database structure didn't employ any sorts of constraints, foreign keys or normalization. The tool, written in Java and SQL, had to extract all data carefully considering the correct dependency order and then populate the new database.
 
 <div class="irony hidden">
-  Irony: Because it worked flawlessly, none of the customers ever knew what was going on, nor appreciated the hard work that went into it! But those are the rules of the game we play, right!
+  Because it worked flawlessly, none of the customers ever knew what was going on, nor appreciated the hard work that went into it :/ Just kidding! :P Passing unnoticed is the best possible outcome in such a scenario. This one was actually awesome!
 </div>
 
-### Contact me
+<section id="scheduler" class="hidden">
+  
+  <h3>Interested in hiring me?</h3>
+  <p>
+    I see you've got ethereum support in this browser. Did I mention that I'm looking to <strong>leave my mark</strong> working on promising projects in the blockchain space?
+  </p>
+  <p>
+    Please feel free to go ahead and choose a free spot on my calendar so we can have a chat. You'll get an email notification from Google Calendar.
+  </p>
+  <p>
+    The scheduler widget below talks to a <strong>smart contract</strong>, just for fun :) I'm using the Ropsten testnet, so no need to spend real money for now ;) By the way, if you fancy having a look under the hood and see how it all works, <a target="_blank" href="https://github.com/felipewer/scheduler">the code is on github</a>.
+  </p>
+
+  <div style="background-color: #eee; padding: 20px 35px; border-radius: 0.3rem;">
+    <h2 style="text-align: center;">Let's talk</h2>
+    <div data-widget="scheduler-widget"
+    >
+      <script type="text/props">
+        {
+          "apiKey": "AIzaSyAk4DxOtnhDpBsg9v5QsTyLuB2J84MEsNY",
+          "calendarId": "5g14sen28q58ujshh0fahtfl6k@group.calendar.google.com",
+          "network": { "id": 3, "name": "Ropsten"},
+          "minHour": { "hour": 7, "timezone": "America/Sao_Paulo" },
+          "maxHour": { "hour": 21, "timezone": "America/Sao_Paulo" },
+          "confirmationText": "Schedule chat"
+        }
+      </script>
+    </div>
+    <script defer src="/assets/scheduler-widget.js"
+      data-mount-in="scheduler-widget">
+    </script>
+  </div>
+
+</section>
+
+### Contact
 
 [felipewer@gmail.com](mailto:felipewer@gmail.com)
 
 <script>
-  console.log('Press (Alt + I) to display some ironic enhancements.');
-  document.addEventListener ('keydown', function (event) {
+  window.addEventListener('SCHEDULER_WIDGET_LOADED', function(event) {
+    document.getElementById('scheduler').classList.toggle('hidden');
+  });
+  console.log('Press (Alt + I) to display ironic enhancements.');
+  document.addEventListener('keydown', function (event) {
     if (event.altKey && event.code === 'KeyI') {
       document.querySelectorAll('.irony').forEach(function(comment) {
         comment.classList.toggle('hidden');
