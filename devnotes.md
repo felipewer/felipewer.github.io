@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /devnotes/
 ---
 
 <div class="posts">

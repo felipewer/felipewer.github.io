@@ -1,7 +1,5 @@
 ---
 layout: page
-title: About
-permalink: /about/
 ---
 
 A Software Engineer by trade, a problem solver by nature. Learning new skills and finding solutions to hard problems is what drives me. 
